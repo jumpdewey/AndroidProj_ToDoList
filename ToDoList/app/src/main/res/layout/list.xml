@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="New Text"
+                android:id="@+id/Title"
+                android:layout_weight="2"
+                android:gravity="left|center_vertical"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#2E9AFE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="New Text"
+                android:id="@+id/Description"
+                android:gravity="bottom"
+                android:textSize="15sp"
+                android:typeface="serif"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#2ECCFA"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="New Text"
+        android:id="@+id/Date"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#045FB4"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2"
+        android:typeface="serif" />
+</LinearLayout>
